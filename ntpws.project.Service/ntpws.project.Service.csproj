@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ntpws.project.Model\ntpws.project.Model.csproj" />
+    <ProjectReference Include="..\ntpws.project.Repository\ntpws.project.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
