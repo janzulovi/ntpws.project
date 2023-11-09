@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ntpws.project.Web", "ntpws.project\ntpws.project.Web.csproj", "{3A0B47D4-78C4-41B1-A8A5-1FC4C1D67952}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ntpws.project.Web", "ntpws.project\ntpws.project.Web.csproj", "{3A0B47D4-78C4-41B1-A8A5-1FC4C1D67952}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ntpws.project.Service", "ntpws.project.Service\ntpws.project.Service.csproj", "{4C0F28D6-6291-42F1-B5AF-AC54AD1BC338}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ntpws.project.Service", "ntpws.project.Service\ntpws.project.Service.csproj", "{4C0F28D6-6291-42F1-B5AF-AC54AD1BC338}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ntpws.project.Repository", "ntpws.project.Repository\ntpws.project.Repository.csproj", "{A593B634-84D9-4E84-A5F6-7F2CA38B9973}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ntpws.project.Repository", "ntpws.project.Repository\ntpws.project.Repository.csproj", "{A593B634-84D9-4E84-A5F6-7F2CA38B9973}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ntpws.project.Model", "ntpws.project.Model\ntpws.project.Model.csproj", "{6BFE00B6-CDFD-4A18-BC85-B4A9FDE12E1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ntpws.project.Model", "ntpws.project.Model\ntpws.project.Model.csproj", "{6BFE00B6-CDFD-4A18-BC85-B4A9FDE12E1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ntpws.project.Ioc", "ntpws.project.Ioc\ntpws.project.Ioc.csproj", "{8E5E97ED-A05A-4B10-87CE-88CFCDE60E56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ntpws.project.Ioc", "ntpws.project.Ioc\ntpws.project.Ioc.csproj", "{8E5E97ED-A05A-4B10-87CE-88CFCDE60E56}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

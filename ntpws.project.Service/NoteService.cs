@@ -51,6 +51,7 @@ namespace ntpws.project.Service
         {
             return new NoteDto()
             {
+                Id = note.Id,
                 Title = note.Title,
                 Description = note.Description,
                 CreatedBy = note.CreatedBy,
