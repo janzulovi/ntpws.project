@@ -41,5 +41,11 @@ namespace ntpws.project.Web.Controllers
         {
             return _noteService.editNote(note);
         }
+
+        [HttpDelete]
+        [Route("/note/{id}")]
+        public void Delete(int id) { 
+            _noteService.deleteNote(id);
+        }
     }
 }
