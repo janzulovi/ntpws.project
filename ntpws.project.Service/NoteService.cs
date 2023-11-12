@@ -55,6 +55,11 @@ namespace ntpws.project.Service
             return mapNoteToNoteDto(savedNote);
         }
 
+        public void deleteNote(int id) {
+            var noteToDelete = _noteRepository.getNote(id);
+            _noteRepository.deleteNote(noteToDelete);
+        }
+
 
         private NoteDto mapNoteToNoteDto(Note note)
         {
