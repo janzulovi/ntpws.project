@@ -31,5 +31,13 @@ namespace ntpws.project.Repository
 
             return _context.Notes.Where(n => n.Id == note.Id).FirstOrDefault();
         }
+
+        public Note updateNote(Note note)
+        {
+            _context.Notes.Update(note);
+            _context.SaveChanges();
+
+            return _context.Notes.Where(n => n.Id == note.Id).FirstOrDefault();
+        }
     }
 }

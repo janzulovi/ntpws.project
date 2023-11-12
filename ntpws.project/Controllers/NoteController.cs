@@ -39,7 +39,7 @@ namespace ntpws.project.Web.Controllers
         [Route("/note/update")]
         public ActionResult<NoteDto> Put([FromBody] NoteDto note)
         {
-            return note;
+            return _noteService.editNote(note);
         }
     }
 }
