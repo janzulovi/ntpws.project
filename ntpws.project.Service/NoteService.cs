@@ -46,6 +46,15 @@ namespace ntpws.project.Service
             return mapNoteToNoteDto(savedNote);
         }
 
+        public NoteDto editNote(NoteDto noteDto)
+        {
+            var note = mapNoteDtoToNote(noteDto);
+
+            var savedNote = _noteRepository.updateNote(note);
+
+            return mapNoteToNoteDto(savedNote);
+        }
+
 
         private NoteDto mapNoteToNoteDto(Note note)
         {
