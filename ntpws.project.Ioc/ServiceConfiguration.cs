@@ -20,10 +20,12 @@ namespace ntpws.project.Ioc
         private static void ConfigureApplicationServices(IServiceCollection services)
         {
             services.AddTransient<NoteService>();
+            services.AddTransient<UserService>();
 
             var mappingConfig = new MapperConfiguration(mc =>
             {
                 mc.AddProfile(new NoteMapperProfile());
+                mc.AddProfile(new UserMapperProfile());
             });
 
             services.AddSingleton(mappingConfig.CreateMapper());
@@ -38,6 +40,7 @@ namespace ntpws.project.Ioc
             });
 
             services.AddTransient<NoteRepository>();
+            services.AddTransient<UserRepository>();
         }
     }
 }
