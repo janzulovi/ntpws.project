@@ -1,9 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using ntpws.project.Model;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ntpws.project.Repository.Configurations
 {
@@ -37,10 +34,6 @@ namespace ntpws.project.Repository.Configurations
             builder.Property(p => p.DateOfBirth)
                .HasMaxLength(255)
                .IsRequired();
-
-            builder.Property(p => p.Role)
-                .HasMaxLength(255)
-                .IsRequired();
         }
     }
 }
