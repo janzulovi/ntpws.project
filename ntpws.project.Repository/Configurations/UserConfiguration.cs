@@ -37,6 +37,10 @@ namespace ntpws.project.Repository.Configurations
             builder.Property(p => p.DateOfBirth)
                .HasMaxLength(255)
                .IsRequired();
+
+            builder.Property(p => p.Role)
+                .HasMaxLength(255)
+                .IsRequired();
         }
     }
 }
