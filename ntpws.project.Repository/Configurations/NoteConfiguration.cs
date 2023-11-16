@@ -32,6 +32,14 @@ namespace ntpws.project.Repository.Configurations
             builder.Property(p => p.NoteType)
                .HasMaxLength(255)
                .IsRequired();
+
+            builder.Property(p => p.Status)
+               .HasMaxLength(255)
+               .IsRequired();
+
+            builder.Property(p => p.DueDate)
+               .HasMaxLength(255)
+               .IsRequired();
         }
     }
 }
