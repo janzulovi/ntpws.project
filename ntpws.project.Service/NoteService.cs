@@ -69,7 +69,10 @@ namespace ntpws.project.Service
                 Title = note.Title,
                 Description = note.Description,
                 CreatedBy = note.CreatedBy,
-                NoteType = note.NoteType.ToString()
+                CreatedOn = note.CreatedOn,
+                DueDate = note.DueDate,
+                NoteType = note.NoteType,
+                Status = note.Status
             };
         }
 
@@ -80,7 +83,11 @@ namespace ntpws.project.Service
                 Id = noteDto.Id,
                 Title = noteDto.Title,
                 Description = noteDto.Description,
-                CreatedBy = noteDto.CreatedBy
+                CreatedBy = noteDto.CreatedBy,
+                CreatedOn = noteDto.CreatedOn,
+                DueDate = noteDto.DueDate,
+                NoteType = noteDto.NoteType,
+                Status = noteDto.Status
             };
 
             return note;
